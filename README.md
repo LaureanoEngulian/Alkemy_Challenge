@@ -24,7 +24,7 @@ CSV_SALAS_CINE = 'URL de Salas de Cine'
 ## Configuración ENV
 Dentro del archivo env.example realizar la configuración del acceso a la base de datos y modificar el nombre del archivo a .env
 ```bash
-USERNAME = 'usuario'
+_USERNAME = 'usuario'
 PASSWORD = 'contraseña'
 DB_HOST = 'host'
 DB_PORT = 'puerto'

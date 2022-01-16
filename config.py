@@ -6,7 +6,7 @@ CSV_SALAS_CINE = 'https://datos.cultura.gob.ar/dataset/37305de4-3cce-4d4b-9d9a-f
 
 #CONFIGURACIÓN DE LA CONEXIÓN A LA BASE DE DATOS
 class Conexion:
-    USERNAME = 'postgres'
+    _USERNAME = config('_USERNAME')
     PASSWORD = config('PASSWORD')
     DB_HOST = config('DB_HOST')
     DB_PORT = config('DB_PORT')

@@ -6,7 +6,7 @@ from logger_base import log
 
 # CONEXIÓN CON POSTGRES Y SQLALCHEMY
 engine = create_engine(
-    f'postgresql+psycopg2://{Conexion.USERNAME}:{Conexion.PASSWORD}@{Conexion.DB_HOST}:{Conexion.DB_PORT}/{Conexion.DB_NAME}')
+    f'postgresql+psycopg2://{Conexion._USERNAME}:{Conexion.PASSWORD}@{Conexion.DB_HOST}:{Conexion.DB_PORT}/{Conexion.DB_NAME}')
 
 def crear_conexion():
     # ENVÍO Y ACTUALIZACIÓN DE LA BASE DE DATOS
